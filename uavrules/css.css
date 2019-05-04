@@ -1,0 +1,73 @@
+@font-face{
+	font-family: "simplifica";
+	src: url("/commondata/fonts/SIMPLIFICA/SIMPLIFICA Typeface.ttf");
+}
+#top_title_card{
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+.pathlink{
+	text-decoration: none;
+	color: green;
+}
+.quicklinks{
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:blue;
+	text-align:center;
+	transition: all 0.2s;
+		
+}
+
+.main_title{
+	font-size: 400%;
+	margin: 0;
+	font-family: "simplifica";
+}
+#main_content{
+	width: 70%;
+	display: block;
+	position: absolute;
+	//border-right: 1px solid silver;
+	left: 8%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 1%;
+}
+.sub_title{
+	font-family: sans-serif;
+	color: blue;
+}
+#main_content_protect{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	z-index:999;
+}
+.img_class1{
+	width: 100%;
+	margin-bottom: 1%;
+}
+table {
+  border-collapse: collapse;
+}
+table, td, th, td {
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  #main_content{
+	  width: 100%;
+	  padding: 1%;
+	  left:0;
+  }
+}
